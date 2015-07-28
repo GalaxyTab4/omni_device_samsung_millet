@@ -2,8 +2,8 @@ TARGET_OTA_ASSERT_DEVICE := matissewifi,matissewifiue,matissewifiuexx,matisse3g,
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_matisse
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/matisse/init/init_matisse.c
+TARGET_INIT_VENDOR_LIB := libinit_millet
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/millet/init/init_millet.c
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -26,8 +26,8 @@ TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/matisse/kernel
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/matisse/mkbootimg.mk
+TARGET_PREBUILT_KERNEL := device/samsung/millet/kernel
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/millet/mkbootimg.mk
 BOARD_KERNEL_CMDLINE := console=null androidboot.console=null androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x37 androidboot.bootdevice=msm_sdcc.1
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048

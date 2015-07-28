@@ -1,4 +1,4 @@
-INSTALLED_DTIMAGE_TARGET := device/samsung/matisse/dt.img
+INSTALLED_DTIMAGE_TARGET := device/samsung/millet/dt.img
 LZMA_RAMDISK := $(PRODUCT_OUT)/ramdisk-recovery-lzma.img
 
 $(LZMA_RAMDISK): $(recovery_ramdisk)
